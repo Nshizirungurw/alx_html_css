@@ -8,6 +8,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: deepskyblue;
 }
 main{
     display: flex;
@@ -18,8 +19,25 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    color: white;
 }
 aside{
     flex: 1;
     overflow-y: auto;
+    color: white;
+}
+img{
+    width: 100px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    font-size: 40px;
+    margin-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 20px;
 }
