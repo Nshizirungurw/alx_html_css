@@ -4,7 +4,7 @@
 }
 .bg{
     width: 100%;
-    height: 90%;
+    height: 93%;
     background-image: url("./Object.png");
     background-repeat: no-repeat;
     position: absolute;
@@ -84,7 +84,7 @@ nav ul li a{
     justify-content: center;
 }
 .second-heading span{
-    color: palevioletred;
+    color: rgb(206, 64, 88);
 }
 .third-division{
     display: flex;
@@ -108,5 +108,32 @@ nav ul li a{
 .card p{
     font-style: italic;
     font-size: 15px;
-    padding-bottom: 10px;
+    
+}
+.middle{
+    width: 100%;
+    height: 25vh;
+    background-color: palevioletred;
+    display: flex;
+    padding-top: 20px;
+}
+.middle-image{
+    width: 30%;
+}
+.middle-part{
+    width: 55%;
+}
+.middle-part blockquote,h3,p{
+    margin-left: 15%;
+    margin-top: 1%;
+    color: white;
+}
+.middle-part p{
+    font-style: italic;
+}
+.middle-image img{
+    width: 100px;
+    margin-left: 90%;
+    margin-top: 10px;
+
 }
