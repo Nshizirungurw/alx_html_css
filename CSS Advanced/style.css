@@ -279,4 +279,36 @@ nav ul li a{
     align-self: center;
     padding-top: 20px;
 }
+#words{
+    width: 100%;
+    height: auto;
+}
+#words h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#lorem{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.lorem1{
+    width: 30%;
+    margin-left: 140px;
+}
+.lorem2{
+    width: 30%;
+    margin-right: 140px;
+}
+.lorem1 h3,.lorem2 h3{
+    color: #000;
+    padding-top: 20px;
+}
+.lorem1 .par,.lorem2 .par{
+    margin-left: 57px;
+    padding-top: 30px;
+    color: rgb(63, 62, 62);
+}
 
