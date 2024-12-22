@@ -160,6 +160,7 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-bottom: 20px;
 }
 #first-card #play{
     width: 30px;
@@ -222,3 +223,60 @@ nav ul li a{
 #active i{
     color: lightgray;
 }
+#for-icon{
+    width: 100%;
+    height: auto;
+    background-color: rgb(9, 2, 44);
+    display: flex;
+    flex-direction: column;
+}
+#for-icon button{
+    margin-bottom: 20px;
+    width: 15%;
+    height: 7vh;
+    border: none;
+    background-color:  rgb(206, 64, 88);
+    color: white;
+    align-self: center;
+    margin-top: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+#for-icon h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+#for-icon span{
+    color: rgb(206, 64, 88);
+}
+#smile{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+#smile img{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 20px;
+}
+#smile h3{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#smile p{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#only{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 20px;
+}
+
