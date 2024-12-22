@@ -135,5 +135,90 @@ nav ul li a{
     width: 100px;
     margin-left: 90%;
     margin-top: 10px;
+}
+.third-section-heading{
+    text-align: center;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.third-section-heading span{
+    color: rgb(206, 64, 88);
+    font-weight: 100;
+}
+.third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 
+#first-card{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#first-card #play{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    padding-left: 15px;
+    top: 30px;
+    left: 50px;
+    cursor: pointer;
+}
+#first-card img{
+    width: 80%;
+    height: 30%;
+    margin-left: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#first-card h3{
+    color: black;
+    font-size: 17px;
+}
+#first-card p{
+    color: gray;
+    font-size: 10px;
+    font-style: bold;
+}
+.fist-card{
+    width: 80%;
+    display: flex;
+
+}
+
+.fist-card #image-one{
+    width: 30px;
+    height: 30px;
+}
+.fist-card h4{
+    font-size: 10px;
+    color: rgb(206, 64, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#stars{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#stars i{
+    color: rgb(206, 64, 88);
+    font-size: 15px;
+
+}
+#stars p{
+    margin-left: 40px;
+    color: rgb(206, 64, 88);
+}
+#active i{
+    color: lightgray;
 }
