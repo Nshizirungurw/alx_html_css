@@ -135,6 +135,10 @@ header nav{
     text-align: center;
     padding-bottom: 5px;
 }
+.our-result{
+    background-image: url('./images/headphones_hero_2.jpg');
+    background-size: cover;
+}
 @media (max-width: 719px) {
     .logo{
         margin-left: 15em;
