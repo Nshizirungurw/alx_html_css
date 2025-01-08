@@ -135,6 +135,61 @@ header nav{
     text-align: center;
     padding-bottom: 5px;
 }
+.our-result{
+    background-image: url('./images/headphones_hero_2.jpg');
+    background-size: cover;
+    padding-bottom: 1em;
+}
+.our-result h1{
+    text-align: center;
+    color: white;
+    padding-top: 3em;
+}
+.our-result p{
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+    font-size: 14px;
+}
+.pentagon-container{
+    display: flex;
+    margin-left: 100px;
+}
+.pentagon{
+    padding: 2em 3em;
+}
+.pentagon img{
+    width: 7em;
+    padding-top: 1.5em;
+
+}
+.pentagon article{
+    position: absolute;
+    padding-left: 2em;
+
+
+}
+.pentagon article .p1{
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.pentagon article .p2{
+    font-size: 10px;
+    margin-right: 10px;
+
+}
+@media (max-width: 910px){
+    .pentagon{
+        padding: 2em 2em;
+    }
+}
+@media (max-width: 770px){
+    .pentagon{
+        padding: 2em 1.6em;
+    }
+}
+
 @media (max-width: 719px) {
     .logo{
         margin-left: 15em;
@@ -165,5 +220,11 @@ header nav{
         display: flex;
         flex-direction: column;
 
+    }
+    .pentagon-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
