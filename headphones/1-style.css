@@ -106,7 +106,35 @@ header nav{
 #check{
     display: none;
 }
-
+.what-we-do{
+    padding-top: 3em;
+}
+.what-we-do h1{
+    text-align: center;
+    padding-bottom: 2em;
+}
+.what-we-do p{
+    text-align: center;
+}
+.what-we-do-icons{
+    display: flex;
+    margin-left: 30px;
+}
+.music-icon-1{
+    padding: 2em 3em;
+}
+.music-icon-1 i{
+    color: rgb(231, 22, 91);
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.music-icon-1 h3{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+}
 @media (max-width: 719px) {
     .logo{
         margin-left: 15em;
@@ -133,5 +161,9 @@ header nav{
     .nav-links ul li{
         margin-top: 2em;
     }
-    
+    .what-we-do-icons{
+        display: flex;
+        flex-direction: column;
+
+    }
 }
