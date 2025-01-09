@@ -239,13 +239,13 @@ footer p{
         padding: 2em 2em;
     }
 }
-@media (max-width: 770px){
+@media (max-width: 770px ){
     .pentagon{
         padding: 2em 1.6em;
     }
 }
 
-@media (max-width: 719px) {
+@media (max-width: 768px){
     .logo{
         margin-left: 15em;
         margin-top: 20px;
@@ -291,6 +291,65 @@ footer p{
     }
     #last{
         padding-left: 19em;
+        padding-top: 2em;
+    }
+}
+@media (max-width: 480px){
+    .last{
+        display: flex;
+        flex-direction: column;
+    }
+    #last{
+        display: flex;
+    }
+}
+
+@media (max-width: 719px) {
+    .logo{
+        margin-left: 15em;
+        margin-top: 20px;
+    }
+    #menu{
+        display: block;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        left: -100%;
+        transition: all .1s;
+    }
+    .nav-links ul li{
+        margin-top: 2em;
+    }
+    .what-we-do-icons{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .pentagon-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+    }
+    .last img{
+        padding-left: 4em;
+    }
+    #last{
+        padding-left: 14em;
         padding-top: 2em;
     }
     
