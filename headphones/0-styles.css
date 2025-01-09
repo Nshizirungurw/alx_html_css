@@ -9,7 +9,7 @@ header{
     
 }
 
-#menu{
+#open-menu,#close-menu{
     position: absolute;
     font-size: 25px;
     color: white;
@@ -17,6 +17,18 @@ header{
     display: none;
     margin-left: 60px;
     cursor: pointer;
+}
+#open-menu{
+    top: 8%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+#close-menu{
+    top: 20px;
+    left: 20px;
+}
+#check{
+    display: none;
 }
 header nav{
     width: 100%;
@@ -103,16 +115,15 @@ header nav{
     letter-spacing: 0.6px;
     padding-bottom: 30px;
 }
-#check{
-    display: none;
-}
+
 
 @media (max-width: 719px) {
     .logo{
         margin-left: 15em;
         margin-top: 20px;
     }
-    #menu{
+
+    #open-menu,#close-menu{
         display: block;
         cursor: pointer;
     }
@@ -120,15 +131,25 @@ header nav{
         display: flex;
         flex-direction: column;
     }
-    .nav-links{
-        display: none;
+    .nav-links ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: -100;
+        z-index: 100;
+        transition: all 0.2s ease-in-out;
+
+    }
+    #check:checked ~ .nav-links ul{
+        left: 0;
     }
     .nav-links ul{
         display: flex;
         flex-direction: column;
         text-align: center;
-        left: -100%;
-        transition: all .1s;
     }
     .nav-links ul li{
         margin-top: 2em;
