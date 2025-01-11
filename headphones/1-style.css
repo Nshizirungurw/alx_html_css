@@ -8,7 +8,6 @@ header{
     background-size: cover;
     
 }
-
 .lorem{
     text-align: center;
     color: white;
@@ -119,6 +118,11 @@ header{
     .meni li a {padding: 10px;}
     .open-menu , .close-menu{display: block;}
     #check:checked ~ .menu {left: 0;}
+    .what-we-do-icons{
+        display: flex;
+        flex-direction: column;
+
+    } 
 }
 /* this is the 0-style.css end */
 
@@ -151,35 +155,10 @@ header{
     text-align: center;
     padding-bottom: 5px;
 }
-@media (max-width: 719px) {
-    .logo{
-        margin-left: 15em;
-        margin-top: 20px;
-    }
-    #menu{
-        display: block;
-        cursor: pointer;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-    .nav-links{
-        display: none;
-    }
-    .nav-links ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        left: -100%;
-        transition: all .1s;
-    }
-    .nav-links ul li{
-        margin-top: 2em;
-    }
+@media (max-width: 705px) {
     .what-we-do-icons{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
 
     }
 }
