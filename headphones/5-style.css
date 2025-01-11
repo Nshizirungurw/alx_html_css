@@ -322,4 +322,40 @@ footer p{
 #last i{
     color: white;
     margin-right: 10px;
+}.pentagon-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pentagon {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.pentagon .text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.pentagon .text span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.pentagon .text small {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: normal;
 }
